@@ -1,7 +1,7 @@
 """
-project_name base module.
+mytest_repo_from_temp base module.
 
-This is the principal module of the project_name project.
+This is the principal module of the mytest_repo_from_temp project.
 here you put your main classes and objects.
 
 Be creative! do whatever you want!
@@ -14,4 +14,4 @@ and then choose `flask` as template.
 """
 
 # example constant variable
-NAME = "project_name"
+NAME = "mytest_repo_from_temp"

@@ -40,7 +40,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <mytest_repo_from_temp>` or `$ mytest_repo_from_temp` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -51,33 +51,33 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name
+# mytest_repo_from_temp
 
-[![codecov](https://codecov.io/gh/author_name/project_urlname/branch/main/graph/badge.svg?token=project_urlname_token_here)](https://codecov.io/gh/author_name/project_urlname)
-[![CI](https://github.com/author_name/project_urlname/actions/workflows/main.yml/badge.svg)](https://github.com/author_name/project_urlname/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/nitinkshirsagar/mytest-repo-from-temp/branch/main/graph/badge.svg?token=mytest-repo-from-temp_token_here)](https://codecov.io/gh/nitinkshirsagar/mytest-repo-from-temp)
+[![CI](https://github.com/nitinkshirsagar/mytest-repo-from-temp/actions/workflows/main.yml/badge.svg)](https://github.com/nitinkshirsagar/mytest-repo-from-temp/actions/workflows/main.yml)
 
-project_description
+Awesome mytest_repo_from_temp created by nitinkshirsagar
 
 ## Install it from PyPI
 
 ```bash
-pip install project_name
+pip install mytest_repo_from_temp
 ```
 
 ## Usage
 
 ```py
-from project_name import BaseClass
-from project_name import base_function
+from mytest_repo_from_temp import BaseClass
+from mytest_repo_from_temp import base_function
 
 BaseClass().base_method()
 base_function()
 ```
 
 ```bash
-$ python -m project_name
+$ python -m mytest_repo_from_temp
 #or
-$ project_name
+$ mytest_repo_from_temp
 ```
 
 ## Development
